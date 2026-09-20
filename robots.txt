@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 
+# Disallow search param loops
+Disallow: /*?*q=
+
 # Sitemap
 Sitemap: https://flowerofheaven.store/sitemap.xml
