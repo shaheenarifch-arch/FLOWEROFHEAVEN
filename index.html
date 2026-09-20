@@ -279,9 +279,17 @@ const BASE='';
    Every "Shop Now" button uses the first match:
    1) products[id]   2) vendors[breederSlug]   3) default + product id (the original placeholder)   */
 const AFFILIATE={
+  hero:"https://www.awin1.com/cread.php?awinmid=113386&awinaffid=3067297&ued=https%3A%2F%2Fblimburnseeds.com%2Fblimburn-seeds%2F",
   default:"https://example.com/shop/",
   products:{
-    // 1:"https://your-network.com/track?offer=alpine-frost",
+    1:"https://www.awin1.com/cread.php?s=4893478&v=113386&q=510429&r=3067297",
+    2:"https://www.awin1.com/cread.php?s=4879977&v=113386&q=510429&r=3067297",
+    3:"https://www.awin1.com/cread.php?s=4879970&v=113386&q=510429&r=3067297",
+    4:"https://www.awin1.com/cread.php?s=4867069&v=113386&q=510429&r=3067297",
+    5:"https://www.awin1.com/cread.php?s=4801288&v=113386&q=510429&r=3067297",
+    6:"https://www.awin1.com/cread.php?s=4840910&v=113386&q=510429&r=3067297",
+    7:"https://www.awin1.com/cread.php?s=4862474&v=113386&q=510429&r=3067297",
+    8:"https://www.awin1.com/cread.php?s=4879979&v=113386&q=510429&r=3067297"
   },
   vendors:{
     // "alpine-genetics":"https://your-network.com/track?offer=alpine",
@@ -384,7 +392,7 @@ const home=()=>`
     <span class="pill"><i class="dot"></i> Curated • Independent • Affiliate transparent</span>
     <h1>Find better genetics.<span class="g">Shop trusted breeders.</span></h1>
     <p class="lead">Your next-gen seed discovery hub: craft cultivars, terp-forward flavor, lab-verified data and small-batch drops from breeders we'd actually grow. No hype. Just genetics worth growing. 🌿</p>
-    <div class="row">${L("/shop","Explore the store","btn btn-pop")}${L("/categories","Browse categories","btn btn-ghost")}</div>
+    <div class="row">${L("/shop","Explore the store","btn btn-pop")}${L("/categories","Browse categories","btn btn-ghost")}<a href="${esc(AFFILIATE.hero)}" target="_blank" rel="sponsored noopener noreferrer" class="btn">🌱 Shop Blimburn Seeds</a></div>
     <div class="checks"><span>10 curated breeders</span><span>600+ verified strains</span><span>Editorial guides</span></div>
   </div>
   <div class="art">
