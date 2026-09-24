@@ -1,27 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://flowerofheaven.store/</loc><lastmod>2026-05-13</lastmod><priority>1.0</priority></url>
-  <url><loc>https://flowerofheaven.store/shop</loc><priority>0.9</priority></url>
-  <url><loc>https://flowerofheaven.store/categories</loc><priority>0.9</priority></url>
-  <url><loc>https://flowerofheaven.store/vendors</loc><priority>0.9</priority></url>
-  <url><loc>https://flowerofheaven.store/deals</loc><priority>0.8</priority></url>
-  <url><loc>https://flowerofheaven.store/guides</loc><priority>0.8</priority></url>
-  <url><loc>https://flowerofheaven.store/blog</loc><priority>0.8</priority></url>
-  <url><loc>https://flowerofheaven.store/about</loc><priority>0.6</priority></url>
-  <url><loc>https://flowerofheaven.store/contact</loc><priority>0.6</priority></url>
-  <url><loc>https://flowerofheaven.store/affiliate-disclosure</loc><priority>0.4</priority></url>
-  <url><loc>https://flowerofheaven.store/privacy-policy</loc><priority>0.3</priority></url>
-  <url><loc>https://flowerofheaven.store/terms</loc><priority>0.3</priority></url>
-  <url><loc>https://flowerofheaven.store/category/feminized</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/category/autoflower</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/category/cbd-rich</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/category/high-thc</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/vendors/alpine-genetics</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/vendors/emerald-coast</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/vendors/northern-lights-co</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/vendors/sierra-verde</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/vendors/terpene-labs</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/vendors/heritage-heirloom</loc><priority>0.7</priority></url>
-  <url><loc>https://flowerofheaven.store/blog/complete-guide-best-cannabis-seeds-online</loc><priority>0.6</priority></url>
-  <url><loc>https://flowerofheaven.store/blog/how-to-choose-feminized-seeds</loc><priority>0.6</priority></url>
+<!-- CORE - KEEP HIGH PRIORITY -->
+<url>
+<loc>https://flowerofheaven.store/</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>1.0</priority>
+<changefreq>daily</changefreq>
+</url>
+<url>
+<loc>https://flowerofheaven.store/shop</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.9</priority>
+<changefreq>daily</changefreq>
+</url>
+<!-- MONEY CATEGORIES - KEEP -->
+<url>
+<loc>https://flowerofheaven.store/category/feminized</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://flowerofheaven.store/category/autoflower</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://flowerofheaven.store/category/cbd-rich</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://flowerofheaven.store/category/high-thc</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<!-- BLOG - KEEP -->
+<url>
+<loc>https://flowerofheaven.store/blog</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.7</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://flowerofheaven.store/blog/complete-guide-best-cannabis-seeds-online</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+</url>
+<url>
+<loc>https://flowerofheaven.store/blog/how-to-choose-feminized-seeds</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+</url>
+<!-- ABOUT - KEEP LOW -->
+<url>
+<loc>https://flowerofheaven.store/about</loc>
+<lastmod>2026-05-13</lastmod>
+<priority>0.5</priority>
+<changefreq>monthly</changefreq>
+</url>
 </urlset>
