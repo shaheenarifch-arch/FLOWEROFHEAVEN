@@ -1,0 +1,61 @@
+{
+  "updated": "2026-10-22",
+  "promos": [
+    {
+      "mid": "113386",
+      "brand": "Blimburn Seeds",
+      "headline": "Buy 1, get 1 free sitewide (50% off)",
+      "details": "Orders $80+, packs of 1, 3, 6 and 9.",
+      "starts": "2026-10-26",
+      "ends": "2026-11-01",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=113386&awinaffid=3067297&ued=https%3A%2F%2Fblimburnseeds.com%2Fspecial-deal-marijuana-strains%2F",
+      "id": "113386-buy-1-get-1-free-sitewide-50-off-",
+      "code": ""
+    },
+    {
+      "mid": "113386",
+      "brand": "Blimburn Seeds",
+      "headline": "Buy 1, get 2 free on new strains (66% off)",
+      "details": "Orders $180+, packs of 1 and 3.",
+      "starts": "2026-10-28",
+      "ends": "2026-11-01",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=113386&awinaffid=3067297&ued=https%3A%2F%2Fblimburnseeds.com%2Fbuy-one-get-two%2F",
+      "id": "113386-buy-1-get-2-free-on-new-strains-66-off-",
+      "code": ""
+    },
+    {
+      "mid": "113386",
+      "brand": "Blimburn Seeds",
+      "headline": "40% off 15 selected strains",
+      "details": "Orders $70+.",
+      "starts": "2026-10-23",
+      "ends": "2026-10-30",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=113386&awinaffid=3067297&ued=https%3A%2F%2Fblimburnseeds.com%2Fexclusive-deals%2F",
+      "id": "113386-40-off-15-selected-strains",
+      "code": ""
+    },
+    {
+      "mid": "113386",
+      "brand": "Blimburn Seeds",
+      "headline": "1 free Stoned Panda seed on $42+",
+      "code": "STONEDPANDA1",
+      "ends": "2026-11-01",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=113386&awinaffid=3067297&ued=https%3A%2F%2Fblimburnseeds.com%2Fpromos-deals%2F",
+      "id": "113386-stonedpanda1"
+    },
+    {
+      "mid": "113386",
+      "brand": "Blimburn Seeds",
+      "headline": "3 free Godfather OG seeds on $120+",
+      "code": "FATHER3",
+      "ends": "2026-10-31",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=113386&awinaffid=3067297&ued=https%3A%2F%2Fblimburnseeds.com%2Fpromos-deals%2F",
+      "id": "113386-father3"
+    }
+  ]
+}
