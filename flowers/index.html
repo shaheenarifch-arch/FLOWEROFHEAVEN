@@ -55,5 +55,6 @@
 <script>(function(){document.addEventListener("submit",function(e){var f=e.target;if(!f.matches||!f.matches("form[data-w3f]"))return;e.preventDefault();var m=f.querySelector(".w3f-msg"),b=f.querySelector("button");m.textContent="Sending…";b.disabled=true;fetch(f.action,{method:"POST",headers:{Accept:"application/json"},body:new FormData(f)}).then(function(r){return r.json()}).then(function(d){if(!d||!d.success)throw 0;m.textContent="Thanks! You are subscribed.";f.reset()}).catch(function(){m.textContent="Sorry, that did not go through. Please email agents@getservices.ai."}).then(function(){b.disabled=false})})})();
 (function(){var m=document.getElementById("menu"),n=document.getElementById("mnav"),v=document.querySelector(".nav");if(m&&n&&v){n.innerHTML=v.innerHTML;m.addEventListener("click",function(){n.classList.toggle("open")})}var p=location.pathname;document.querySelectorAll(".nav a,.mnav a").forEach(function(a){if(a.getAttribute("href")===p)a.classList.add("on")})})();</script>
 <script src="/flowers/flowers.js" defer></script>
+<script src="https://atlas-api-v2.python-tester.workers.dev/hub/carousel.js" data-site="flowerofheaven.store" async></script>
 </body>
 </html>
