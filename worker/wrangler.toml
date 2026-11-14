@@ -1,0 +1,13 @@
+name = "foh-flowers"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+# Free workers.dev address; no new domain needed.
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGINS = "https://flowerofheaven.store,https://www.flowerofheaven.store"
+
+# Secrets (set in the Cloudflare dashboard, never in this file):
+#   FLORISTONE_KEY   Florist One API key
+#   FLORISTONE_PASS  Florist One API password
