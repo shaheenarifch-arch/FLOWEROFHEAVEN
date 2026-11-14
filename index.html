@@ -87,7 +87,7 @@ footer{background:#3e4c45;color:#eef3ef;margin-top:48px;padding:40px 0 26px;font
 <section class="nd" id="delivery" aria-labelledby="nd-title"><div class="wrap">
 <div class="nd-panel"><div><span class="eyebrow">New from Flower of Heaven</span><h2 id="nd-title">Flowers, Delivered Nationwide</h2><p class="lead">Send beautiful flowers to the people who matter, wherever they are. Enter the recipient's ZIP code to check delivery availability and start your order.</p></div>
 <form class="nd-form" id="nd-form" novalidate><label for="nd-zip">Recipient's delivery ZIP code</label><input id="nd-zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="[0-9]{5}" placeholder="Enter Delivery ZIP Code" aria-describedby="nd-hint nd-status" required><p class="nd-hint" id="nd-hint">Use the 5-digit US ZIP code where the flowers should go.</p>
-<div class="cta"><button class="btn btn-rose" type="submit">Check Availability</button><a class="btn btn-line" href="/shop/">Explore Bouquets</a></div>
+<div class="cta"><button class="btn btn-rose" type="submit">Check Availability</button><a class="btn btn-line" href="/flowers/">Explore Bouquets</a></div>
 <p class="nd-status" id="nd-status" role="status" aria-live="polite"></p>
 <p class="nd-trustline">Beautifully arranged • Trusted local fulfillment • Convenient delivery</p></form></div>
 <div class="nd-hl"><div><b>Same-Day Options</b><span>Available in select delivery areas.</span></div><div><b>Nationwide Reach</b><span>Growing coverage across the United States.</span></div><div><b>Beautifully Prepared</b><span>Fresh arrangements prepared with care.</span></div><div><b>For Every Occasion</b><span>Birthdays, anniversaries, love, sympathy, congratulations and more.</span></div></div>
@@ -117,8 +117,8 @@ footer{background:#3e4c45;color:#eef3ef;margin-top:48px;padding:40px 0 26px;font
    Until then no ZIP is claimed as covered; the expanding message is shown. */
 window.FOHDelivery=(function(){
   var config={
-    availabilityEndpoint:null, // e.g. "https://chambelli.getservices.ai/v1/delivery/availability"
-    bouquetsUrl:"/shop/",      // Bouquet Selection step; change when a bouquets page exists
+    availabilityEndpoint:"https://foh-flowers.python-tester.workers.dev/availability", // foh-flowers Worker (Florist One), see /worker/README.md
+    bouquetsUrl:"/flowers/",   // Bouquet Selection step
     expandingMessage:"We're expanding quickly. Enter your ZIP code to check current delivery availability."
   };
   function validZip(z){return /^\d{5}$/.test(z)}
